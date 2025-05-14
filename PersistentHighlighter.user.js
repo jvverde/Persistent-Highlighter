@@ -203,7 +203,6 @@
         withObserverPaused(() => {
             const span = event.target;
             const textNode = createTextNode(span.textContent);
-            /*VERIFICAR ESTE CODIGO*/
             span.replaceWith(textNode);
 
             const xpath = getXPath(span);
